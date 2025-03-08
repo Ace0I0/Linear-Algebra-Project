@@ -1,3 +1,5 @@
+![Project Banner Frame](Extra_Assests/Banner Slimes - github.png)
+
 # Linear Algebra Project
 
 This project demonstrates how linear algebra, specifically matrix transformations, is used in real-world applications. We showcase these concepts through a short video game that highlights how matrix transformations contribute to in-game animations and mechanics.
