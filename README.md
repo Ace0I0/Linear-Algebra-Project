@@ -1,4 +1,4 @@
-![Project Banner Frame](Extra_Assests/Banner Slimes - github.png)
+![Project Banner Frame](Extra_Assests/Banner%20Slimes%20-%20github.png)
 
 # Linear Algebra Project
 
