@@ -9,6 +9,7 @@ This project demonstrates how linear algebra, specifically matrix transformation
 - **Pygame** – For game development and rendering
 - **Pytmx** – For handling tile maps
 - **Tiled** – For putting together in-game maps
+- **Procreate** - For creating sprites and tiles
 - *(More packages may be added later as development progresses.)*
 
 ## Installation
@@ -19,7 +20,7 @@ To run this project, install the required dependencies using `pip`:
 pip install pygame-ce
 pip install pytmx
 ```
-To run this program, run the following command in your terminal:
+To run test.py, run the following command in your terminal:
 ```bash
 python test.py
 ```
