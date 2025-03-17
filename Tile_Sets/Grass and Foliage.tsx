@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.2" name="Grass and Foliage" tilewidth="16" tileheight="16" tilecount="36" columns="6">
- <image source="../../Downloads/Grass v2.png" width="96" height="96"/>
+ <image source="../Extra_Assests/Grass v2.png" width="96" height="96"/>
  <tile id="0">
   <properties>
    <property name="solid" type="bool" value="false"/>

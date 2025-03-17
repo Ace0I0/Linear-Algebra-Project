@@ -29,10 +29,10 @@ MIN_CHARACTER_SIZE = (int(8 * scale_factor), int(8 * scale_factor))
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.RESIZABLE)
 
 # Load the tile map
-tmx_data = pytmx.load_pygame('C:\\Users\\rafae\\PyGame\\Tile_Maps\\Test_Environment.tmx') # set to where ever you save this
+tmx_data = pytmx.load_pygame('Linear-Algebra-Project\\Tile_Maps\\Test_Environment.tmx') # set to where ever you save this
 
 # Load the character sprite
-character_sprite = pygame.image.load('C:\\Users\\rafae\\PyGame\\Sprites\\Slime_1.png') # same with this thing
+character_sprite = pygame.image.load('Linear-Algebra-Project\\Sprites\\Slime_1.png') # same with this thing
 character_sprite = pygame.transform.scale(character_sprite, DEFAULT_CHARACTER_SIZE)
 
 # Character properties
