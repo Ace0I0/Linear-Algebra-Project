@@ -19,9 +19,9 @@ class Game():
         self.curr_menu = self.main_menu
 
         # Game-specific initialization
-        self.TILE_SIZE = 16
-        self.MAP_WIDTH = 25
-        self.MAP_HEIGHT = 18
+        self.TILE_SIZE = 16 
+        self.MAP_WIDTH = 25 
+        self.MAP_HEIGHT = 18 
         self.GRAVITY = 0.2
         self.JUMP_STRENGTH = -5
         self.CHARACTER_SPEED = 3
@@ -36,7 +36,7 @@ class Game():
         self.MIN_CHARACTER_SIZE = (int(8 * self.scale_factor), int(8 * self.scale_factor))
 
         self.screen = pygame.display.set_mode((self.DISPLAY_W, self.DISPLAY_H), pygame.RESIZABLE)
-        self.tmx_data = pytmx.load_pygame('Linear-Algebra-Project\\Tile_Maps\\Test_Environment.tmx')
+        self.tmx_data = pytmx.load_pygame('Linear-Algebra-Project\\Tile_Maps\\Test_Environment_1.tmx')
         self.character_sprite = pygame.image.load('Linear-Algebra-Project\\Sprites\\Slime_1.png')
         self.character_sprite = pygame.transform.scale(self.character_sprite, self.DEFAULT_CHARACTER_SIZE)
 

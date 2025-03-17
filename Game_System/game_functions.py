@@ -2,6 +2,15 @@ import pygame
 import pytmx
 
 def draw_tile_map(screen, tmx_data, scale_factor, TILE_SIZE):
+    # Draw image layers first
+    for layer in tmx_data.visible_layers:
+        if isinstance(layer, pytmx.TiledImageLayer):
+            image = layer.image
+            if image:
+                image = pygame.transform.scale(image, (int(image.get_width() * scale_factor), int(image.get_height() * scale_factor)))
+                screen.blit(image, (layer.offsetx * scale_factor, layer.offsety * scale_factor))
+    
+    # Draw tile layers on top of image layers
     for layer in tmx_data.visible_layers:
         if isinstance(layer, pytmx.TiledTileLayer):
             for x, y, gid in layer:
