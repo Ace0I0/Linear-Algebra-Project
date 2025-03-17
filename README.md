@@ -27,6 +27,3 @@ python test.py
 
 
 
-## Extras
-
-Since test.py was developed on a personal machine, the file paths for the tile map and character sprites are set up locally. If you are testing this project on your own machine, ensure that you update the file paths accordingly, or the game will not run properly.
