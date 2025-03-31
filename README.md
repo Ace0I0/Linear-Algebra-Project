@@ -6,8 +6,8 @@ This project demonstrates how linear algebra, specifically matrix transformation
 
 ## Useful Links
 
-[Map Editor](https://www.mapeditor.org/)
-[PyGame Community Edition](https://pypi.org/project/pygame-ce/)
+- [Map Editor](https://www.mapeditor.org/)
+- [PyGame Community Edition](https://pypi.org/project/pygame-ce/)
 
 
 ## Technologies Used
