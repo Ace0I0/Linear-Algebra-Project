@@ -26,10 +26,7 @@ To run this project, install the required dependencies using `pip`:
 pip install pygame-ce
 pip install pytmx
 ```
-To run test.py, run the following command in your terminal:
-```bash
-python test.py
-```
+
 
 
 
