@@ -4,9 +4,11 @@
 
 This project demonstrates how linear algebra, specifically matrix transformations, is used in real-world applications. We showcase these concepts through a short video game that highlights how matrix transformations contribute to in-game animations and mechanics.
 
-## Useful Tools
+## Useful Links
 
 [Map Editor](https://www.mapeditor.org/)
+[PyGame Community Edition](https://pypi.org/project/pygame-ce/)
+
 
 ## Technologies Used
 
